@@ -203,6 +203,8 @@ header {
 
 .nav-open .nav {
     transform: translateX(0);
+    left: auto;
+    width: 33%;
 }
 
 .nav-open .nav-toggle {

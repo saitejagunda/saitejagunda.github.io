@@ -224,7 +224,16 @@ header {
 }
 
 
+@media (max-width: 600px) {
+    .about2 {
+        /*grid-area: title;  */
+        text-align: center;
+    }
+    .nav-open .nav {
+        width: max-content;
+    }
 
+}
 
 
 

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+   <!--         <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>        -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>SaiTeja Gunda</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Devops Engineer</p>
+            <img src="img/sai-01_rsz.jpg" alt="a picture of Sai smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>DevOps</h3>
+                    <p>Creating and maintaining the DevOps pipeline for managing and deploying Micro Services.
+                        Analyzing the code for GitLab, building the code with Maven & testing the same with Junit.
+                        Inspecting the code quality with SonarQube, fortifying for static analysis & creating image using Docker.
+                        </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Automation</h3>
+                    <p>Working on Jenkins with Linux & Windows Slave and managing users with several plugins.
+                        Creating Kubernetes HA Cluster with multi-master, multi-ETCDs and multi-workers using Ansible-playbooks.
+                        Exploring new technologies & tools, introducing them to the company; assisting in building-up an agile development environment.
+                        Improving the product quantity and the work efficiency by applying new strategies.
+                        Creating development concepts, project flow, and project scope.
+                        </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Designed and conceived in various startups like Fudospot as Android Developer and with various organization such as India E learn and Edomotics Home Automation Pvt. Ltd..</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Devops & Automation engineer based out of HYD</p>
+           
+           <div class="about-me__body">
+               <p>Result-driven professional with 2.5 years of experience in DevOps Engineering; presently associated
+                with Reliance Industries Ltd. Understanding of project lifecycle, including all phases of system along with software development and administration; creating a unique blend of scripting, infrastructure automation and maintenance
+                </p>
+               <p>Strong business insight with skills in using technologies like Python, GIT, Docker, Kubernetes, Ansible.
+                  Expertise in DevSecOps Tools to support the continuous integration & deployment.
+                  Experience in application maintenance of continuous integration Build Engineers, Hudson & Jenkins and Azuredevops.
+                </p>
+               
+           </div>
+           
+           <img src="img/rsz_sai-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+          <!--  <div class="portfolio">    -->
+            <div class="about-me__body">
+                <p>Creating and maintaining the DevOps pipeline for managing and deploying Micro Services, Monolithic applications, Bigdata applications etc.</p>
+                <p>Automation of Kubernetes Deployment
+                        -> Developed Ansible Scripts to deploy Multi-master Kubernetes Cluster
+                        -> Developed Test Scripts to test Kubernetes cluster once cluster is setup.
+                </p>
+                <p> Analyzing the code for GitLab, building the code with Maven & testing the same with Junit 
+                    Inspecting the code quality with SonarQube, fortifying for static analysis & creating image using Docker
+                </p>
+                <p>Using Artifact repositories for docker images and deploying the image on Kubernetes Cluster using Ansible playbook.
+                   Expertise in handling  critical business applications for their end-to-end deployment with zero downtime.
+                </p>
+                <p>Process Mining
+                   -> Design and Implemented a workbench called Hive Query Workbench in R shiny Through Knox.
+                   -> Installation and Deployment of R-Studio on Docker for Hive Query Work Bench.
+                   -> Established Connection Between Hive and RStudio to run Spark R code for Process Mining.</p>
+  <!--           <div class="section-heading reveal-bar">
+                 <h3>Skills</h3>
+                 ::after
+             </div>
+             <div class="subsection">
+                    <h5>Languages</h5>
+                    <ul class="skills-list">
+                      <li>Python</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Android</li>
+                      <li>Ansible</li>
+                      <li>Java</li>
+                    </ul>
+                </div>         -->
+                <!-- Portfolio item 01 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 02 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 03 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 04 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 05 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 06 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 07 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 08 
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 09 
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 0 0
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>   -->            
+            </div>  
+        </section>
+        
+          
+        <!-- MY SKILLS -->
+             <section class="about-me2" id="skills">   
+              
+                <h2 class="about2">My Skills</h2> 
+              
+        <!--        <p class="section__subtitle section__subtitle--about">Devops & Automation engineer based out of HYD</p> -->
+                
+              <!--  <div class="about-me__body">   -->  
+                        <section id="section_skill">
+                                <div class="container">
+                                    <div class="section-heading">
+                                     <!--   <h3>Skills</h3>  -->
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Languages </h3>
+                                        <ul class="skills-list">
+                                            <li>JavaScript(ES6)</li><li>TypeScript</li>
+                                            <li>Java</li><li>Python</li>
+                                            <li>C</li><li>SQL</li><li>HTML5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Server-side technologies</h3>
+                                        <ul class="skills-list">
+                                            <li>Node.js</li><li>GraphQL</li><li>REST</li><li>Express.js</li><li>EJS</li>
+                                            <li>Spring Boot</li><li>Thymeleaf</li><li>MySQL</li><li>MongoDB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Client-side Technologies</h3>
+                                        <ul class="skills-list">
+                                            <li>React.js</li><li>Apollo</li><li>Redux</li><li>React Context & Hooks</li>
+                                            <li>Material-UI</li><li>jQuery</li><li>D3.js</li><li>Bootstrap</li><li>CSS</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Other tools and techniques</h3>
+                                        <ul class="skills-list">
+                                            <li>Git</li><li>GitHub</li><li>GitHub Actions</li><li>CI/CD</li>
+                                            <li>Linux</li><li>Scikit-learn</li><li>Keras</li><li>Matplotlib</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                    
+                    
+                </div>
+                
+                          
+            </section>
+             
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:saitejagunda@gmail.com" class="footer__link">saitejagunda@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/saitejagunda/">
+                        <i class="fab fa-linkedin-in" style='font-size:24px'> </i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/its_me_teja_7/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/saitejagunda">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
